@@ -1,2 +1,2 @@
-# krischambers.github.io
-Personal Website
+# Personal Website
+Just a personal website for playing around with.
