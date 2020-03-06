@@ -1,0 +1,44 @@
+:root {
+	--base-font-color: black;
+	--font-color: rgb(212, 138, 0);
+}
+
+* {
+	font-size: 1rem;
+}
+
+.font--md, h1 {
+	font-size: 1.5rem;
+}
+
+.font--lg, footer * {
+	font-size: 2rem;
+}
+
+
+* { color: var(--base-font-color); }
+
+.view {
+	display: flex;
+	height: 100vh;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 50px;
+	min-width: 500px;
+}
+
+a:hover { color: var(--font-color); }
+
+#info {
+	max-height: 100px;
+	flex: 1;
+}
+
+header {
+	border-bottom: 2px solid black;
+}
+
+main {
+	min-height: 70vh;
+}
+
